@@ -4,12 +4,46 @@
     background: #FFFFFF;
 }
 
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ul,
+ol,
+dl {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+}
+
+img {
+    display: block;
+}
+
 ul {
     list-style: none;
 }
 
 a {
     text-decoration: none;
+}
+
+.header {
+    padding-bottom: 24px;
+    border-top: 24px;
+}
+
+.container {
+    width: 100%;
+    max-width: 1158px;
+    margin: 0 auto;
 }
 
 .header-link {
@@ -63,7 +97,15 @@ a {
 
 .main-title-list {
     flex-shrink: 0;
+    margin-bottom: 120px;
+}
+
+.container-title-list {
     background: var(--NAVY-BLUE, #2E2F42);
+    padding-top: 188px;
+    padding-bottom: 292px;
+    padding-right: 472px;
+    padding-left: 472px;
 }
 
 .main-title {
@@ -73,6 +115,8 @@ a {
     font-weight: 700;
     line-height: 1.07;
     letter-spacing: 0.02em;
+    margin-bottom: 48px;
+    min-width: 496px;
 }
 
 .main-button {
@@ -84,6 +128,8 @@ a {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
+    display: block;
+    margin: 0 auto;
 }
 
 .main-button:hover {
@@ -92,6 +138,11 @@ a {
 
 .main-button:focus {
     background: #404BBF;
+}
+
+.main-advantages {
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .main-subtitle-advantage {
@@ -111,12 +162,14 @@ a {
 
 .main-team {
     background: var(--CLOUD, #F4F4FD);
+    padding-top: 120px;
 }
 
 .main-item-team {
     padding-bottom: 0px;
     justify-content: center;
     background: var(--WHITE, #FFF);
+    margin-bottom: 72px;
 }
 
 .main-title-team {
@@ -129,6 +182,10 @@ a {
     text-transform: capitalize;
 }
 
+.main-team-img {
+    margin-bottom: 32px;
+}
+
 .main-name-team {
     color: var(--NAVY-BLUE, #2E2F42);
     text-align: center;
@@ -136,6 +193,7 @@ a {
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    margin-bottom: 8px;
 }
 
 .main-paragraph-team {
@@ -146,6 +204,10 @@ a {
     letter-spacing: 0.02em;
 }
 
+.main-portfolio {
+    padding-top: 120px;
+}
+
 .main-title-portfolio {
     color: var(--NAVY-BLUE, #2E2F42);
     text-align: center;
@@ -154,6 +216,15 @@ a {
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+    margin-bottom: 72px;
+}
+
+.main-item-portfolio {
+    margin-bottom: 48px;
+}
+
+.main-item-portfolio :last-child {
+    margin-bottom: 0;
 }
 
 .main-subtitles-portfolio {
@@ -162,6 +233,12 @@ a {
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    margin-bottom: 8px;
+    border: 1px solid var(--CORNFLOWER, #E7E9FC);
+    border-top: 0;
+    text-align: center;
+    padding-bottom: 32px;
+    padding-top: 32px;
 }
 
 .main-paragraph-portfolio {
@@ -169,6 +246,7 @@ a {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    text-align: center;
 }
 
 .footer-link {
@@ -196,4 +274,5 @@ a {
     font-family: "Raleway";
     flex-shrink: 0;
     background: var(--NAVY-BLUE, #2E2F42);
+    margin-top: 120px;
 }
