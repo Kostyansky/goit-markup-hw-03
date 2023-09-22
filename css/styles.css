@@ -195,6 +195,10 @@ a {
     padding-right: 156px;
 }
 
+.main-item-advantage {
+    flex-basis: calc((100% - 72px) / 4);
+}
+
 .main-subtitle-advantage {
     color: var(--NAVY-BLUE, #2E2F42);
     font-size: 20px;
@@ -202,7 +206,6 @@ a {
     line-height: 1.2;
     letter-spacing: 0.02em;
     margin-bottom: 8px;
-    flex-basis: calc((100% - 72px) / 4);
 }
 
 .main-paragraph-advantage {
