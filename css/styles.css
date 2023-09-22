@@ -185,6 +185,7 @@ a {
 
 .main-advantages {
     padding: 120px 0;
+    width: calc((100% - 72px) / 4);
 }
 
 .main-list-advantage {
@@ -193,7 +194,6 @@ a {
     min-width: 264px;
     padding-left: 156px;
     padding-right: 156px;
-    width: calc((100% - 72px) / 4);
 }
 
 .main-subtitle-advantage {
