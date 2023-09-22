@@ -59,7 +59,8 @@ a {
     width: 100%;
     max-width: 1158px;
     margin: 0 auto;
-    padding: 0 15px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .header-container {
@@ -90,7 +91,8 @@ a {
 .header-list {
     display: flex;
     gap: 40px;
-    padding: 24px 0;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .header-item-link {
@@ -191,6 +193,9 @@ a {
     min-width: 264px;
     padding-left: 156px;
     padding-right: 156px;
+}
+
+.main-item-advantage {
     width: calc((100% - 72px) / 4);
 }
 
@@ -222,7 +227,6 @@ a {
 .main-list-team {
     display: flex;
     gap: 24px;
-    width: calc((100% - 72px) / 4);
 }
 
 .main-item-team {
@@ -231,6 +235,7 @@ a {
     background: var(--WHITE, #FFF);
     margin-bottom: 72px;
     border-radius: 0px 0px 4px 4px;
+    width: calc((100% - 72px) / 4);
 }
 
 .main-title-team {
@@ -278,7 +283,6 @@ a {
     flex-wrap: wrap;
     row-gap: 48px;
     column-gap: 24px;
-    width: calc((100% - 72px) / 4);
 }
 
 .main-title-portfolio {
@@ -301,7 +305,7 @@ a {
 
 .main-item-portfolio {
     margin-bottom: 48px;
-    width: calc(100%-48px) / 3;
+    width: calc((100%-48px) / 3);
 }
 
 .main-item-portfolio :last-child {
