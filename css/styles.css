@@ -193,6 +193,7 @@ a {
     min-width: 264px;
     padding-left: 156px;
     padding-right: 156px;
+    width: calc((100% - 72px) / 4);
 }
 
 .main-subtitle-advantage {
@@ -209,7 +210,6 @@ a {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    width: calc((100% - 72px) / 4);
 }
 
 .main-team {
