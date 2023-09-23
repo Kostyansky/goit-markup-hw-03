@@ -198,7 +198,7 @@ a {
 }
 
 .main-item-advantage {
-    width: calc((100% - 3 * 24px) / 4);
+    width: calc((100% - 72px) / 4);
     gap: 24px;
 }
 
@@ -239,7 +239,7 @@ a {
     background: var(--WHITE, #FFF);
     margin-bottom: 72px;
     border-radius: 0px 0px 4px 4px;
-    flex-basis: calc((100% - 3 * 23px) / 4);
+    width: calc((100% - 72px) / 4);
 }
 
 .main-title-team {
