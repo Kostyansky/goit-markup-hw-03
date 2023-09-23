@@ -66,12 +66,15 @@ a {
 
 .header-container {
     display: flex;
-    padding: 0 15px
+    padding: 0 15px;
+    flex-grow: 1;
+    justify-content: space-between;
 }
 
 .header-navigation {
     display: flex;
     align-items: center;
+    width: 100%;
 }
 
 .header-link {
@@ -206,7 +209,6 @@ a {
     line-height: 1.2;
     letter-spacing: 0.02em;
     margin-bottom: 8px;
-
 }
 
 .main-paragraph-advantage {
@@ -214,6 +216,7 @@ a {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    padding-bottom: 32px;
 }
 
 .main-team {
