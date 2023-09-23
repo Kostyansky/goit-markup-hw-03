@@ -195,6 +195,7 @@ a {
 
 .main-item-advantage {
     width: calc((100% - 3 * 24px) / 4);
+    gap: 24px;
 }
 
 .main-subtitle-advantage {
@@ -300,11 +301,12 @@ a {
     padding: 32px 16px;
     border: 1px solid var(--CORNFLOWER, #E7E9FC);
     border-top: none;
+    margin-bottom: 8px;
 }
 
 .main-item-portfolio {
-    margin-bottom: 48px;
     width: calc((100% - 48px) / 3);
+    flex-direction: column;
 }
 
 .main-item-portfolio :last-child {
