@@ -196,7 +196,7 @@ a {
 }
 
 .main-item-advantage {
-    flex-basis: calc((100% - 72px) / 4);
+    flex-basis: calc((100% - 3 * 24px) / 4);
 }
 
 .main-subtitle-advantage {
@@ -236,7 +236,7 @@ a {
     background: var(--WHITE, #FFF);
     margin-bottom: 72px;
     border-radius: 0px 0px 4px 4px;
-    width: calc((100% - 72px) / 4);
+    flex-basis: calc((100% - 3 * 23px) / 4);
 }
 
 .main-title-team {
