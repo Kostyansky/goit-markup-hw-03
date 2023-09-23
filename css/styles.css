@@ -194,7 +194,7 @@ a {
 }
 
 .main-item-advantage {
-    width: calc((100% - 3*24px)/4);
+    width: calc((100% - 3 * 24px) / 4);
 }
 
 .main-subtitle-advantage {
@@ -303,7 +303,6 @@ a {
 }
 
 .main-item-portfolio {
-    margin-bottom: 48px;
     width: calc((100% - 48px) / 3);
 }
 
