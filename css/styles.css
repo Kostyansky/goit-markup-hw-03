@@ -197,7 +197,7 @@ a {
     min-width: 264px;
 }
 
-.main-item-advantage:not(:last-child) {
+.main-item-advantage:first-child {
     width: calc((100% - 72px) / 4);
 }
 
@@ -241,7 +241,7 @@ a {
 
 }
 
-.main-item-team:not(:last-child) {
+.main-item-team:first-child {
     width: calc((100% - 72px) / 4)
 }
 
