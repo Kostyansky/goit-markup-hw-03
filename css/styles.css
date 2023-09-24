@@ -197,9 +197,9 @@ a {
     min-width: 264px;
 }
 
-.main-item-advantage {
+.main-item-advantage:first-child {
     width: calc((100% - 72px) / 4);
-    gap: 24px;
+
 }
 
 .main-subtitle-advantage {
@@ -239,6 +239,10 @@ a {
     background: var(--WHITE, #FFF);
     margin-bottom: 72px;
     border-radius: 0px 0px 4px 4px;
+
+}
+
+.main-item-team:first-child {
     width: calc((100% - 72px) / 4);
 }
 
@@ -312,9 +316,9 @@ a {
     margin-bottom: 8px;
 }
 
-.main-item-portfolio {
+.main-item-portfolio:first-child {
     width: calc((100% - 48px) / 3);
-    flex-direction: column;
+
 }
 
 .main-subtitles-portfolio {
