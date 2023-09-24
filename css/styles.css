@@ -52,8 +52,8 @@ a {
 }
 
 .header {
-    padding-bottom: 24px;
-    border-top: 24px;
+
+    background-color: #fff;
     border-bottom: 1px solid #e7e9fc
 }
 
@@ -197,6 +197,10 @@ a {
     min-width: 264px;
 }
 
+.main-item-advantage:not(:last-child) {
+    width: calc((100% - 72px) / 4);
+}
+
 .main-subtitle-advantage {
     color: var(--NAVY-BLUE, #2E2F42);
     font-size: 20px;
@@ -235,6 +239,10 @@ a {
     margin-bottom: 72px;
     border-radius: 0px 0px 4px 4px;
 
+}
+
+.main-item-team:not(:last-child) {
+    width: calc((100% - 72px) / 4)
 }
 
 .main-title-team {
