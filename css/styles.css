@@ -242,7 +242,7 @@ a {
 }
 
 .main-item-team:first-child {
-    width: calc((100% - 72px) / 4)
+    flex-basis: calc((100% - 72px) / 4);
 }
 
 .main-title-team {
