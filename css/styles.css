@@ -198,7 +198,7 @@ a {
 }
 
 .main-item-advantage:first-child {
-    width: calc((100% - 72px) / 4);
+    flex-basis: calc((100% - 72px) / 4)
 }
 
 .main-subtitle-advantage {
