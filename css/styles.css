@@ -238,10 +238,6 @@ a {
     background: var(--WHITE, #FFF);
     margin-bottom: 72px;
     border-radius: 0px 0px 4px 4px;
-
-}
-
-.main-item-team:first-child {
     flex-basis: calc((100% - 72px) / 4);
 }
 
