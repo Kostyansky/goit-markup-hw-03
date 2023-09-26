@@ -254,7 +254,6 @@ a {
 .main-team-img {
     background-color: #FFF;
     margin-bottom: 32px;
-    width: calc((100% - 72px) / 4);
 }
 
 .main-name-team {
@@ -267,6 +266,7 @@ a {
     letter-spacing: 0.02em;
     margin-bottom: 8px;
     text-align: center;
+    width: calc((100% - 72px) / 4);
 }
 
 .main-paragraph-team {
