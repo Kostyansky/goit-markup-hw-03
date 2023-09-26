@@ -58,6 +58,7 @@ a {
 }
 
 .container {
+    width: 100%;
     width: 1158px;
     margin: 0 auto;
     padding-left: 15px;
@@ -236,6 +237,7 @@ a {
     border-bottom-left-radius: 4px;
     border-bottom-right-radius: 4px;
     list-style-type: none;
+    width: calc((100% - 3 * 24px) / 4);
 }
 
 .main-title-team {
@@ -247,7 +249,6 @@ a {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     margin-bottom: 72px;
-    width: calc((100% - 3 * 24px) / 4);
 }
 
 .main-team-img {
