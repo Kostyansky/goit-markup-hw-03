@@ -266,7 +266,6 @@ a {
     letter-spacing: 0.02em;
     margin-bottom: 8px;
     text-align: center;
-    width: calc((100% - 72px) / 4);
 }
 
 .main-paragraph-team {
@@ -277,6 +276,7 @@ a {
     letter-spacing: 0.02em;
     padding-bottom: 32px;
     text-align: center;
+    width: calc((100% - 72px) / 4);
 }
 
 .main-portfolio {
