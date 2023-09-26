@@ -228,7 +228,6 @@ a {
 .main-list-team {
     display: flex;
     gap: 24px;
-    justify-content: center;
 }
 
 .main-item-team {
@@ -240,7 +239,7 @@ a {
 }
 
 .main-title-team {
-    color: var(--NAVY-BLUE, #2E2F42);
+    color: #2E2F42;
     text-align: center;
     font-size: 36px;
     font-weight: 700;
@@ -251,27 +250,30 @@ a {
 }
 
 .main-team-img {
+    background-color: #FFF;
     margin-bottom: 32px;
 }
 
 .main-name-team {
-    color: var(--NAVY-BLUE, #2E2F42);
+    color: #2E2F42;
     text-align: center;
+    font-family: Roboto;
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
     margin-bottom: 8px;
-    margin-top: 32px;
+    text-align: center;
 }
 
 .main-paragraph-team {
-    color: var(--SLATE, #434455);
+    color: #434455;
     text-align: center;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    margin-bottom: 32px;
+    padding-bottom: 32px;
+    text-align: center;
 }
 
 .main-portfolio {
