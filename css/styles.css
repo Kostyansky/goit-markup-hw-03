@@ -221,7 +221,7 @@ a {
     background: var(--CLOUD, #F4F4FD);
     padding: 120px 0;
     text-align: center;
-    width: calc((100% - 3 * 24px) / 4);
+
 }
 
 .team-container {
@@ -231,6 +231,7 @@ a {
 .main-list-team {
     display: flex;
     gap: 24px;
+    width: calc((100% - 3 * 24px) / 4);
 }
 
 .main-item-team {
