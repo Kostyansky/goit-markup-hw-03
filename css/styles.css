@@ -248,13 +248,13 @@ a {
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    width: calc((100% - 72px) / 4);
     margin-bottom: 72px;
 }
 
 .main-team-img {
     background-color: #FFF;
     margin-bottom: 32px;
+    width: calc((100% - 72px) / 4);
 }
 
 .main-name-team {
