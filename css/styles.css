@@ -226,6 +226,7 @@ a {
 
 .main-team {
     background-color: #f4f4fd;
+    width: 1440px;
     height: 732px;
     flex-shrink: 0;
     display: block;
@@ -316,7 +317,7 @@ a {
     display: block;
     flex-shrink: 0;
     padding-top: 32px;
-    padding-bottom: 16px;
+    padding-bottom: 32px;
     padding-left: 16px;
     padding-right: 16px;
     border: 1px solid #e7e9fc;
