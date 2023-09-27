@@ -233,7 +233,8 @@ a {
 }
 
 .team-container {
-    padding: 32px 0;
+    padding-bottom: 32px;
+    padding-top: 32px;
 }
 
 .main-list-team {
@@ -314,7 +315,10 @@ a {
 .container-portfolio {
     display: block;
     flex-shrink: 0;
-    padding: 32px 16px;
+    padding-top: 32px;
+    padding-bottom: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
 }
@@ -326,9 +330,7 @@ a {
 }
 
 .main-img-portfolio {
-    padding-bottom: 32px;
     max-width: 360px;
-    height: 300px;
 }
 
 .main-subtitles-portfolio {
