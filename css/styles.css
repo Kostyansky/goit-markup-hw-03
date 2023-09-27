@@ -249,7 +249,9 @@ a {
     background: var(--WHITE, #fff);
     padding-bottom: 0px;
     border-radius: 0px 0px 4px 4px;
+    width: calc((100% - 72px) \ 4);
 }
+
 
 .main-title-team {
     font-size: 36px;
@@ -320,6 +322,7 @@ a {
 
 
 .main-item-portfolio {
+    width: calc((100% - 48px) \ 3);
     border: 1px solid var(--CORNFLOWER, #e7e9fc);
 }
 
