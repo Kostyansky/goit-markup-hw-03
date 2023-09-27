@@ -59,6 +59,8 @@ a {
 
 .container {
     width: 1158px;
+    padding-right: 15px;
+    padding-left: 15px;
     margin: 0 auto;
 }
 
@@ -230,11 +232,6 @@ a {
     padding: 120px 0;
 }
 
-.team-container {
-    padding-bottom: 32px;
-    padding-top: 32px;
-}
-
 .main-list-team {
     align-items: center;
     justify-content: center;
@@ -288,7 +285,6 @@ a {
 
 .main-portfolio {
     padding-top: 120px;
-    padding-bottom: 120px;
 }
 
 .main-list-portfolio {
@@ -324,7 +320,6 @@ a {
 
 .main-item-portfolio {
     flex-basis: calc((100% - 2 * 24px) / 3);
-    border: 1px solid var(--CORNFLOWER, #e7e9fc);
 }
 
 .main-img-portfolio {
@@ -379,5 +374,5 @@ a {
     flex-shrink: 0;
     background: var(--NAVY-BLUE, #2E2F42);
     margin-top: 120px;
-    padding: 100px 0;
+    padding-bottom: 100px;
 }
